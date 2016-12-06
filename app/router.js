@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('report');
+  this.route('import');
 });
 
 export default Router;
